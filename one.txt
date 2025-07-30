@@ -1,3 +1,25 @@
-This is my first class.
-This is my Second class.
-git
+import java.util.*
+class p
+{
+    public void dis()
+
+{
+    System.out.println("Parent");
+}
+}
+class C
+{
+    public void dis()
+
+{
+    System.out.println("Child);
+}
+}
+class Cons
+{
+    public static void main(STring args[])
+    {
+        Cons c1=new Cons();
+        c1.dis();
+    }
+}
